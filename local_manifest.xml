@@ -2,8 +2,8 @@
 <manifest>
 	<remote name="abhi" fetch="https://github.com/abhis699" />
 
-    <project path="device/realme/RMX3371" name="android_device_realme_rmx3371" remote="abhi" revision="elixir2" />
-    <project path="vendor/realme/RMX3371" name="proprietary_vendor_realme_rmx3371" remote="abhi" revision="a"  />
-    <project path="kernel/realme/sm8250" name="kernel_realme_sm8250" remote="abhi" revision="spartan-AOSP" />
-    <project path="hardware/oplus" name="hardware_oplus_kona" remote="abhi" revision="A13" />
+    <project path="device/realme/RMX3371" name="android_device_realme_rmx3371" remote="abhi" revision="udc2" />
+    <project path="vendor/realme/RMX3371" name="proprietary_vendor_realme_rmx3371" remote="abhi" revision="udc"  />
+    <project path="kernel/realme/sm8250" name="kernel_realme_sm8250" remote="abhi" revision="AGNi-AOSP" />
+    <project path="hardware/oplus" name="hardware_oplus_kona" remote="abhi" revision="udc" />
 </manifest>
