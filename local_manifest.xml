@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="abhi" fetch="https://github.com/abhis699" />
+	<remote name="abhi" fetch="https://github.com/aosp-rmx3371" />
+	<remote name="lab" fetch="https://gitlab.com/deepak.albd" />
 
-    <project path="device/realme/RMX3371" name="android_device_realme_rmx3371" remote="abhi" revision="elixir2" />
-    <project path="vendor/realme/RMX3371" name="proprietary_vendor_realme_rmx3371" remote="abhi" revision="a"  />
+    <project path="device/realme/RMX3371" name="realme_device_tree_kona" remote="abhi" revision="A13" />
+    <project path="device/realme/sm8250-common" name="realme_sm8250_common_tree" remote="abhi" revision="A13" />
+    <project path="vendor/realme/RMX3371" name="vendor_tree_realme_kona" remote="abhi" revision="A13"  />
+    <project path="vendor/realme/sm8250-common" name="vendor_realme_common_kona" remote="abhi" revision="A13"  />
     <project path="kernel/realme/sm8250" name="kernel_realme_sm8250" remote="abhi" revision="spartan-AOSP" />
-    <project path="hardware/oplus" name="hardware_oplus_kona" remote="abhi" revision="A13" />
+    <project path="hardware/oplus" name="android_hardware_oplus_tree" remote="abhi" revision="A13" />
+    <project path="hardware/dolby" name="hardware_dolby" remote="abhi" revision="A13" />
+    <project path="vendor/oplus/camera" name="proprietary_vendor_oplus_camera" remote="lab" revision="A13" />
 </manifest>
