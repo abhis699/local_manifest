@@ -6,6 +6,4 @@
     <project path="vendor/realme/RMX3371" name="proprietary_vendor_realme_rmx3371" remote="abhi" revision="udc"  />
     <project path="kernel/realme/sm8250" name="kernel_realme_sm8250" remote="abhi" revision="AGNi-AOSP" />
     <project path="hardware/oplus" name="hardware_oplus_kona" remote="abhi" revision="udc" />
-    <remove-project name="hardware/qcom-caf/bengal/display">
-    <remove-project name="hardware/qcom-caf/msm8996/display">
-</manifest>
+    </manifest>
