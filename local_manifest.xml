@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remote name="abhi" fetch="https://github.com/abhis699" />
-	<remote  name="lineage" fetch="https://github.com/LineageOS" />
+	<remote name="lineage" fetch="https://github.com/LineageOS" />
 
     <project path="device/realme/RMX3371" name="android_device_realme_rmx3371" remote="abhi" revision="udc2" />
     <project path="vendor/realme/RMX3371" name="proprietary_vendor_realme_rmx3371" remote="abhi" revision="udc"  />
